@@ -2,12 +2,12 @@
 
 If you are working on a project which has a Makefile containing lots of commands, this might turn your life easier.
 
-# How does it work?
+## How does it work?
 
 - Your Makefile must have some comments in order to generate a properly help message. Like the Makefile example you can find in this project.
 - You must have a command called `help`, that will execute the help generator for the Makefile.
 
-### Example:
+**Example:**
 
 Add help comments to your Makefile commands like:
 

@@ -33,8 +33,9 @@ help:
 	@./MakefileHelp.sh
 ```
 
-Take a look at the last command called `help` 
+Take a look at the last command called `help`. 
 The `help` command will print the Makefile help.
+
 ```bash
 help:
     @# help - Show this help.

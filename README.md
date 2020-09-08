@@ -2,6 +2,18 @@
 
 If you are working on a project which has a Makefile containing lots of commands, this might turn your life easier.
 
+## How to use it?
+
+You must to create a file called `MakefileHelper.sh` containing the same conntent as the MakefileHelper.sh in this project. After that, you must set this file execution permission (`chmod +x MakefileHelper.sh`).
+
+The following command will do both:
+
+```bash
+wget https://raw.githubusercontent.com/diogocavilha/make-help-generator/master/MakefileHelp.sh \
+-q -O MakefileHelper.sh \
+&& chmod +x MakefileHelper.sh
+```
+
 ## How does it work?
 
 - Your Makefile must have some comments in order to generate a properly help message. Like the Makefile example you can find in this project.

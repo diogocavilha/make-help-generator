@@ -4,14 +4,14 @@ If you are working on a project which has a Makefile containing lots of commands
 
 ## How to use it?
 
-You must to create a file called `MakefileHelper.sh` containing the same conntent as the MakefileHelper.sh in this project. After that, you must set this file execution permission (`chmod +x MakefileHelper.sh`).
+You must to create a file called `MakefileHelp.sh` containing the same conntent as the MakefileHelp.sh in this project. After that, you must set this file execution permission (`chmod +x MakefileHelp.sh`).
 
 The following command will do both:
 
 ```bash
 wget https://raw.githubusercontent.com/diogocavilha/make-help-generator/master/MakefileHelp.sh \
--q -O MakefileHelper.sh \
-&& chmod +x MakefileHelper.sh
+-q -O MakefileHelp.sh \
+&& chmod +x MakefileHelp.sh
 ```
 
 ## How does it work?
